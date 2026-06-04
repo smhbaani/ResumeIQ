@@ -2,8 +2,11 @@ streamlit==1.46.1
 pandas==2.2.3
 plotly==6.2.0
 pdfplumber==0.11.7
+spacy==3.8.7
 fpdf==1.7.2
 numpy==2.3.1
 python-dateutil==2.9.0.post0
 pytz==2025.2
 tzdata==2025.2
+
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
