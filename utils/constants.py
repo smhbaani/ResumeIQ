@@ -1,0 +1,13 @@
+APP_NAME = "ResumeIQ"
+
+MAX_SCORE = 100
+
+DEFAULT_ROLE = "AI Engineer"
+
+ATS_THRESHOLD = 75
+
+TOP_SKILLS_LIMIT = 15
+
+SUPPORTED_FORMATS = [
+    "pdf"
+]

@@ -1,0 +1,52 @@
+{
+  "Programming": [
+    "Python",
+    "Java",
+    "C++",
+    "C",
+    "JavaScript",
+    "TypeScript"
+  ],
+
+  "AI_ML": [
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-Learn",
+    "Machine Learning",
+    "Deep Learning",
+    "NLP",
+    "Computer Vision"
+  ],
+
+  "Web": [
+    "React",
+    "Next.js",
+    "Node.js",
+    "Express",
+    "HTML",
+    "CSS"
+  ],
+
+  "Database": [
+    "SQL",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB"
+  ],
+
+  "Cloud_DevOps": [
+    "AWS",
+    "Azure",
+    "Docker",
+    "Kubernetes",
+    "Terraform"
+  ],
+
+  "Tools": [
+    "Git",
+    "GitHub",
+    "Linux",
+    "Postman",
+    "VS Code"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "AI Engineer": ["python","tensorflow","pytorch","docker","aws","mlops"],
+
+  "Machine Learning Engineer": [
+    "python",
+    "tensorflow",
+    "pytorch",
+    "scikit-learn",
+    "mlops",
+    "docker"
+  ],
+
+  "Data Scientist": [
+    "python",
+    "sql",
+    "pandas",
+    "numpy",
+    "machine learning"
+  ],
+
+  "Data Analyst": [
+    "sql",
+    "excel",
+    "power bi",
+    "tableau",
+    "python"
+  ],
+
+  "Software Engineer": [
+    "python",
+    "java",
+    "git",
+    "sql"
+  ],
+
+  "Full Stack Developer": [
+    "html",
+    "css",
+    "javascript",
+    "react",
+    "node.js",
+    "sql"
+  ],
+
+  "Frontend Developer": [
+    "html",
+    "css",
+    "javascript",
+    "react"
+  ],
+
+  "Backend Developer": [
+    "python",
+    "node.js",
+    "sql",
+    "docker"
+  ],
+
+  "Cloud Engineer": [
+    "aws",
+    "azure",
+    "docker",
+    "kubernetes",
+    "terraform"
+  ],
+
+  "DevOps Engineer": [
+    "docker",
+    "kubernetes",
+    "jenkins",
+    "terraform",
+    "aws"
+  ],
+
+  "Cybersecurity Analyst": [
+    "linux",
+    "networking",
+    "python",
+    "wireshark",
+    "security"
+  ],
+
+  "Ethical Hacker": [
+    "linux",
+    "python",
+    "burpsuite",
+    "metasploit",
+    "networking"
+  ],
+
+  "Android Developer": [
+    "java",
+    "kotlin",
+    "android"
+  ],
+
+  "Flutter Developer": [
+    "flutter",
+    "dart",
+    "firebase"
+  ],
+
+  "Product Manager": [
+    "jira",
+    "analytics",
+    "communication",
+    "agile"
+  ],
+
+  "UI/UX Designer": [
+    "figma",
+    "wireframing",
+    "prototyping",
+    "design"
+  ],
+
+  "AI Intern": [
+    "python",
+    "machine learning",
+    "pandas",
+    "numpy"
+  ],
+
+  "Software Engineering Intern": [
+    "python",
+    "git",
+    "sql",
+    "oop"
+  ]
+}

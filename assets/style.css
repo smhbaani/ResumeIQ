@@ -1,0 +1,274 @@
+/* ==================================================
+   GLOBAL
+================================================== */
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+.stApp {
+
+    background:
+    linear-gradient(
+        135deg,
+        #6B8F71,
+        #56705A
+    );
+
+    color: #F8F5F2;
+}
+
+/* ==================================================
+   MAIN CONTAINER
+================================================== */
+
+.block-container {
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* ==================================================
+   SIDEBAR
+================================================== */
+
+section[data-testid="stSidebar"] {
+
+    background:
+    linear-gradient(
+        180deg,
+        #12343B,
+        #0E272D
+    );
+
+    border-right:
+    1px solid rgba(216,195,165,.15);
+}
+
+section[data-testid="stSidebar"] * {
+
+    color: #F8F5F2;
+}
+
+/* ==================================================
+   TITLES
+================================================== */
+
+h1 {
+
+    color: #F8F5F2 !important;
+
+    font-weight: 800 !important;
+}
+
+h2,
+h3,
+h4 {
+
+    color: #D8C3A5 !important;
+}
+
+p {
+
+    color: #D0C7BE;
+}
+
+/* ==================================================
+   METRIC CARDS
+================================================== */
+
+.metric-card {
+
+    background:
+    rgba(18,52,59,.88);
+
+    border:
+    1px solid rgba(216,195,165,.15);
+
+    border-radius: 22px;
+
+    padding: 25px;
+
+    backdrop-filter: blur(10px);
+
+    box-shadow:
+    0 8px 24px rgba(0,0,0,.25);
+
+    transition:
+    all .3s ease;
+}
+
+.metric-card:hover {
+
+    transform:
+    translateY(-5px);
+
+    border-color:
+    #6B8F71;
+}
+
+.metric-card h4 {
+
+    color:
+    #D0C7BE;
+}
+
+.metric-card h2 {
+
+    color:
+    #D8C3A5;
+
+    font-size:
+    34px;
+}
+
+/* ==================================================
+   STREAMLIT METRICS
+================================================== */
+
+[data-testid="metric-container"] {
+
+    background:
+    rgba(30,58,52,.8);
+
+    border-radius:
+    20px;
+
+    border:
+    1px solid rgba(216,195,165,.12);
+
+    padding:
+    20px;
+
+    box-shadow:
+    0 8px 20px rgba(0,0,0,.25);
+}
+
+/* ==================================================
+   TABS
+================================================== */
+
+.stTabs [data-baseweb="tab-list"] {
+
+    gap: 10px;
+}
+
+.stTabs [data-baseweb="tab"] {
+
+    background:
+    rgba(30,58,52,.9);
+
+    border-radius:
+    12px;
+
+    color:
+    white;
+}
+
+.stTabs [aria-selected="true"] {
+
+    background:
+    linear-gradient(
+        90deg,
+        #6B8F71,
+        #B08968
+    );
+
+    color:
+    white !important;
+}
+
+/* ==================================================
+   BUTTONS
+================================================== */
+
+.stButton button {
+
+    bbackground:
+    linear-gradient(
+        90deg,
+        #B08968,
+        #D8C3A5
+    );
+
+    color: #12343B;
+
+    font-weight: 700;
+}
+
+.stButton button:hover {
+
+    transform:
+    scale(1.03);
+}
+
+.stDownloadButton button {
+
+    background:
+    linear-gradient(
+        90deg,
+        #12343B,
+        #6B8F71
+    );
+
+    color:
+    white;
+
+    border:
+    none;
+
+    border-radius:
+    12px;
+}
+
+/* ==================================================
+   PROGRESS BARS
+================================================== */
+
+.stProgress > div > div {
+
+    background:
+    linear-gradient(
+        90deg,
+        #6B8F71,
+        #D8C3A5
+    );
+}
+
+/* ==================================================
+   INPUTS
+================================================== */
+
+.stSelectbox div {
+
+    border-radius:
+    12px;
+}
+
+/* ==================================================
+   ALERTS
+================================================== */
+
+[data-testid="stAlert"] {
+
+    border-radius:
+    14px;
+}
+
+/* ==================================================
+   SCROLLBAR
+================================================== */
+
+::-webkit-scrollbar {
+
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background:
+    #6B8F71;
+
+    border-radius:
+    20px;
+}
